@@ -7,7 +7,31 @@
     </head>
     <body class="corpus">
         <section class="corpus">
-            <p>Corpus Analysis Project: Introduction to Digital Humanities</p>
+            <h2 class="corpus">Corpus Analysis Project: Introduction to Digital Humanities</h2>
+            <div class="n3gram">
+                <figure>
+                    <img class="n3gram" src="{% static 'images/mag.3gram.png' %}" alt='Magazine 3 Gram'/> 
+                    <img class="n3gram" src="{% static 'images/radioplays.3gram.png' %}" alt='Radio Play 3 Gram'/> 
+                    <figcaption class="n3gram">
+                        I'd like to compare writings from 1930's through the 1960's to radio plays of around the same time. 
+                        I expect to find similar phrasing between the two writings. I ran some 3-grams on a collection of radio plays
+                        and magazine articles of the same period. The 3-gram didn't reveal much as you can see above.
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="n5gram">
+                <figure>
+                    <img class="n5gram" src="{% static 'images/fiction.5gram.png' %}" alt='Magazine 3 Gram'/> 
+                    <img class="n5gram" src="{% static 'images/radioplays.sus.5gram.png' %}" alt='Radio Play 3 Gram'/> 
+                    <figcaption class="n5gram">
+                        Since the 3-gram was unrevealing, I tried to refine my corpus sets to suspense radio plays and fiction writings from 
+                        1938 to 1961. Unfortunately, it seems that the radio plays have alot of HTML in them, so when I ran a 5-gram on the collection
+                        there isn't much in the way of phrases, but more a collection of HTML phrases. It looks as though I may need to find a
+                        differnt collection or refine the data in the current collection.
+                    </figcaption>
+                </figure>
+            </div>
         </section>
         
     </body>
