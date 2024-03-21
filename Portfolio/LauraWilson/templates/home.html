@@ -1,0 +1,71 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    {% include "layout.html" %}  
+    <head> 
+        <title>About Me</title>           
+    </head>
+    <body class="index">
+                
+        <section class="index">
+           <h1 id="aboutme">About Me</h1>
+             
+        <hr>
+        
+        
+            <p>HELLO! My name is Laura Wilson. I am a non-traditional (aka OLD) student at Penn State Behrend. 
+        I am currently a senior in the Software Engineering Bachelor program.</p>
+        <p>I have an amazing daughter who is almost 15 years old and wonderful and supportive husband who
+        has selflessly carried the weight of our family through my persuit of a new degree.</p>        
+            
+        <div class="aboutme">
+        <div class="hobbies">
+            <h4 class="aboutme">Outdoor Hobbies:</h4>
+            <ul>
+                <li>Hiking</li>
+                <li>Kayaking</li>
+                <li>Rock Climbing</li>
+                <li>Horseback Riding</li>
+            </ul>
+            <h4 class="aboutme">Indoor Hobbies:</h4>
+            <ul>
+                <li>Reading (I particularly love my Kindle!)</li>
+                <li>Crocheting</li>
+                <li>Snuggling Doggos</li>
+                <li>Binging Streaming Services</li>
+            </ul>
+        
+            <h4 class="aboutme">My Favorite Movies:</h4>
+            <ol>
+                <li>Office Space</li>
+                <li>Monty Python and The Holy Grail</li>
+                <li>Forest Gump</li>
+                <li>The Heat</li>
+            </ol>
+        </div>
+            <figure>
+                <img id="flower" alt="sunflower" src="{% static 'images/sunflower.png' %}"/>
+            </figure>
+        </div>
+       
+    <hr>
+        <h1 class="memes">ENJOY SOME MEMES!</h1>
+        <div class="memes">
+            <h2 class="memes">Enjoy some software engineering memes!</h2>
+            <figure class="memes">
+                <img class="memes" src="{% static 'images/why.jpg' %}"/>
+                <figcaption class="memes">The never ending emotional roller coaster!</figcaption>
+            </figure>
+            <figure class="memes">
+                <img class="memes" src="{% static 'images/runtime.png' %}"/>
+                <figcaption class="memes">Never fails!</figcaption>
+            </figure>
+            <figure class="memes">
+                <img class="memes" src="{% static 'images/nochill.webp' %}"/>
+                <figcaption class="memes">Literally no chill...</figcaption>
+            </figure>
+        </div>
+        </section>
+        
+    </body>
+</html>

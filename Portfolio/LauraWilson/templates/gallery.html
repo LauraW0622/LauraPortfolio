@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    {% include "layout.html" %} 
+    <head>
+        <title>Gallery</title>
+    </head>
+    <body class="gallery">
+       
+        <h1 id="puptitle">Meet The Puppers!</h1>
+        <section class="Gemini">
+            <h2 class="dogs">Gemini</h2> 
+            <figure class="gemi">
+                <img class="gemi" src="{% static 'images/gemi3.jpg' %}" alt='Gemi'/> 
+                <img class="gemi" src="{% static 'images/gemi2.jpg' %}" alt = 'Gemi'/>
+                <figcaption class="dogcapt">Gemini is a 14 year old Rottweiler-Beagle mix. This 35lb princess refuses to go outside
+                    in inclement weather, and is very demanding about what she wants. She can be such a silly girl and 
+                    loves to scratch her back upside down. In her free time, she handles my books (see picture on right).</figcaption>
+            </figure>
+            
+        </section>
+        
+        <section class="Kodi">
+            <h2 class="dogs">Kodi</h2>
+            <figure class="kodi">
+                <img class="kodi" src="{% static 'images/kodi1.jpg' %}" alt='Kodi'/>
+                <img class="kodi" src="{% static 'images/kodi2.jpg' %}" alt='Kodi'/>
+                <figcaption class="dogcapt">Kodi is a 4 year old, 50lb, Australian Shepherd mix. You can tell how he is feeling by just looking at
+                his ears! Happy? Ears up! Bored? Ears down! Perplexed? Check out the left photo! He is super playful, but doesn't
+                ever know when to STOP! In a past life, he was a thug (see right photo).</figcaption>
+            </figure>
+        </section>
+        
+        <section class="Bayne">
+            <h2 class="dogs">Bayne</h2>
+            <figure class="bayne">
+                <img class="bayne" src="{% static 'images/bayne1.jpg' %}" alt='Bayne'/>
+                <img class="bayne" src="{% static 'images/bayne2.jpg' %}" alt='Bayne'/>
+                <figcaption class="dogcapt">Bayne is a 3 year old pure-breed AKC registered Great Dane! He's a whopping 160lb.... BABY! He loves 
+                a good snuggle more than anything else in the world. When he's not looking dapper (see left photo), he's tormenting
+                his older brother Kodi (see right photo)!</figcaption>
+            </figure>
+        </section>
+    </body>
+</html>

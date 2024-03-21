@@ -1,0 +1,252 @@
+body {
+    background:  #3e2723;
+    font-family: "Copperplate", Copperplate, fantasy;
+    color:  #fafafa;
+}
+
+hr {
+    color: #ff9800;
+}
+
+a {
+    color: #fafafa;
+}
+
+h1,
+h3,
+h5 {
+    text-align: center;
+    color:  #ffc107;
+}
+
+h2,
+h4 {
+    color:  #ff9800;
+}
+
+h2 {
+    text-align: center; 
+}
+
+figure {
+    width: 100%;
+    text-align: center; 
+    margin: 0; 
+    padding: 0;
+}
+
+figcaption {
+    padding: 0% 10% 10% 10%;
+}
+
+div.navbar{
+    background-image: url('images/sunflower.jpg'); 
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 5px;
+    height: 100px;
+}
+li.nav {
+    float: left; 
+}
+li a {
+    color: white;
+    padding: 0px 14px;
+    height: 100px;
+    font-size: 24px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li a:hover {
+    background-color:  #3C2800;
+    color: white;
+}
+
+img {
+    border-radius: 30%;
+}
+
+
+/* ******************************** Index ******************************** */
+body.index{
+    background-image: url(images/paper.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    font-size: 5mm;
+    font-family: "Arial", sans-serif;
+}
+
+div.aboutme {
+    display: flex;
+}
+
+div.hobbies {
+    justify-content: left;
+}
+
+#flower {
+    width: 75%;
+    justify-content: right;
+    align-items: center;
+}
+
+section.index{
+    margin: 40px 100px;
+    color: #3C2800;
+}
+figure.memes {
+    text-align: center; 
+    color: #fafafa;
+}
+img.memes {
+    width: 60%;
+    border-radius: 10%;
+}
+
+figcaption.memes {
+    font-size: 2em;
+    color: #3C2800;
+}
+p.memes, h4.memes {
+    text-align: center;
+}
+
+#aboutme {
+    font-size: 3em;
+    color: #6F2C44;
+}
+
+h4.aboutme {
+    font-size: 2em; 
+    font-family: "Century Gothic", sans-serif;
+    color: #6F2C44;
+}
+
+h1.memes {
+    color: #6F2C44;
+}
+
+/* ******************************** Gallery ******************************** */
+body.gallery{
+    background-image: url('images/wood.jpg');
+    background-size: 100%;
+    opacity: 0.9;
+}
+img.gemi,
+img.kodi,
+img.bayne {
+    width: 40%;
+    height: auto; 
+}
+
+section.gemi, 
+section.kodi, 
+section.bayne {
+    margin: 0; 
+}
+
+#puptitle {
+    font-size: 100px;
+}
+
+h2.dogs {
+    font-size: 50px;
+    font-family: "Lucida Handwriting", cursive;
+}
+
+figcaption.dogcapt {
+    font-size: 30px; 
+    font-family: "Arial", console; 
+}
+
+
+/* ******************************** Resume ******************************** */
+body.resume {
+    background-image: url('images/pg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    font-family: "Lucida Sans";
+    color: #fafafa;
+}
+
+#res {
+    margin: 40px 100px;
+}
+
+#name{
+    font-size: 3pc;
+}
+
+#resinfo{
+    font-size: 3ex;
+}
+
+section.education h3,
+section.revcourses h3,
+section.projects h3,
+section.experience h3,
+section.skills h3,
+section.volunteer h3 {
+    text-align: left; 
+    display: flex; 
+    font-size: 3ex;
+}
+
+div.edu,
+div.seniordes, 
+div.duck,
+div.wabtec {
+    display: flex; 
+    justify-content: space-between; 
+}
+
+div {
+    margin: 0px;
+    padding: 0px;
+}
+
+#gpa, 
+#swengcap, 
+#duckproj, 
+#wabtecpos {
+    text-align: left; 
+}
+#dean, 
+#swengprogdate, 
+#duckdates, 
+#wabtecdates {
+    text-align: right;
+}
+
+table.courses,
+table.skills {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+td, th{
+    margin: 20px 0px;
+    padding: 5px;
+    border: 1px solid;
+}
+
+
+/* ******************************** Projects ******************************** */
+body.projects {
+    background-image: url('images/sunflowermauve.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}

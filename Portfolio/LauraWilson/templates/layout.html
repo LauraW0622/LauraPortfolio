@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{% static 'home.css' %}"/>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <body>
+        <div class="navbar">
+            <nav>
+                <ul class="nav"> 
+                    <li class="nav"><a href="{% url 'home' %}">Home</a></li>
+                    <li class="nav"><a href="{% url 'gallery' %}">Gallery</a></li>
+                    <li class="nav"><a href="{% url 'resume' %}">Resume</a></li>
+                    <li class="nav"><a href="{% url 'projects' %}">Projects</a></li>
+
+                </ul>
+            </nav>
+        </div>
+
+        {% block content %}
+        {% endblock %}
+
+    </body>
+</html>
